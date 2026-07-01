@@ -10,7 +10,7 @@ while True:
         promedio = float(input("Ingrese su promedio de admisión (0 - 20): "))
 
         if promedio < 0 or promedio > 20:
-            print("Error: El promedio debe estar entre 0 y 20.")
+            print("El promedio debe estar entre 0 y 20.")
         else:
             break
     except ValueError:
