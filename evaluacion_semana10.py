@@ -21,7 +21,7 @@ while True:
         ingreso = float(input("Ingrese el ingreso familiar mensual (S/): "))
 
         if ingreso < 0:
-            print("Error: El ingreso no puede ser negativo.")
+            print("El ingreso no puede ser negativo.")
         else:
             break
     except ValueError:
